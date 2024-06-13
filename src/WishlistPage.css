@@ -1,0 +1,33 @@
+/* WishlistPage.css */
+
+.wishlist-container {
+    padding: 20px;
+    width: 1000px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .wishlist-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .wishlist-item {
+    margin-bottom: 20px;
+  }
+  
+  .wishlist-image {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px;
+  }
+  
+  .wishlist-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+  

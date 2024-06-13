@@ -1,0 +1,46 @@
+.product-container {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    img {
+      height: 170px;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Add gradient background */
+    background: linear-gradient(to bottom, #0d60dd, #fff); 
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+
+    h2 {
+      font-family: Arial, sans-serif;
+      font-size: 21px;
+      line-height: 27.3px;
+    }
+  }
+
+  .description {
+    p {
+      font-size: 14px;
+      line-height: 27.3px;
+    }
+  }
+}

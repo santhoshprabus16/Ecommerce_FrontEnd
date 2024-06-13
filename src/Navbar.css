@@ -1,0 +1,102 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar-center {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-left: 260px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  margin-left: 10px;
+  padding: 9px 12px;
+  border: 1px solid black;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background-color: lightcyan;
+}
+
+.light-mode .navbar {
+  background-color: blue;
+  color: red;
+}
+
+.light-mode .nav-button {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.dark-mode .navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .nav-button {
+  background-color: #555;
+  color: #fff;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
